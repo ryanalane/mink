@@ -6,3 +6,27 @@ h1 {
   font-size: 4em;
   letter-spacing: 0.1em;
   margin: 0.5em; }
+
+#vector_table {
+  margin: 0 auto;
+  font-size: 3em; }
+  #vector_table tr.vector:before {
+    content: "{"; }
+  #vector_table tr.vector:after {
+    content: "}"; }
+  #vector_table tr.vector td {
+    padding: 1em;
+    text-align: center; }
+    #vector_table tr.vector td:after {
+      content: ","; }
+    #vector_table tr.vector td:last-child:after {
+      content: ""; }
+  #vector_table tr.differences {
+    font-size: 0.6em;
+    color: rgba(0, 0, 0, 0.5); }
+    #vector_table tr.differences:before {
+      content: ""; }
+    #vector_table tr.differences:after {
+      content: ""; }
+    #vector_table tr.differences td {
+      padding: 0 3em; }

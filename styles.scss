@@ -8,3 +8,51 @@ h1 {
 	letter-spacing: 0.1em;
 	margin: 0.5em;
 }
+
+#vector_table {
+	margin: 0 auto;
+
+	font-size: 3em;
+
+	tr.vector {
+
+		&:before {
+			content: "{";
+		}
+
+		&:after {
+			content: "}";
+		}
+
+		td {
+			padding: 1em;
+			text-align: center;	
+
+			&:after {
+				content: ",";
+			}
+
+			&:last-child:after {
+				content: "";
+			}
+		}
+	}
+
+	tr.differences {
+		font-size: 0.6em;	
+
+		color: rgba(0, 0, 0, 0.5);
+
+		&:before {
+			content: "";
+		}
+
+		&:after {
+			content: "";
+		}
+
+		td {
+			padding: 0 3em;
+		}
+	}
+}

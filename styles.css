@@ -30,3 +30,42 @@ h1 {
       content: ""; }
     #vector_table tr.differences td {
       padding: 0 3em; }
+
+#expression {
+  font-size: 4em;
+  font-family: Georgia, Times, serif;
+  font-style: italic;
+  position: relative; }
+  #expression span {
+    vertical-align: middle; }
+  #expression .parenthesis {
+    font-size: 2.25em;
+    font-family: "Times New Roman", Times, serif;
+    font-style: normal; }
+    #expression .parenthesis.open {
+      margin-right: 0.1em; }
+    #expression .parenthesis.close {
+      margin-left: 0.1em; }
+  #expression .summation {
+    font-size: 1.75em;
+    vertical-align: -40%;
+    margin-right: 0.1em;
+    display: inline-block; }
+    #expression .summation span {
+      width: 100%;
+      float: left; }
+    #expression .summation .bound {
+      font-size: 0.25em; }
+      #expression .summation .bound.lower {
+        clear: left; }
+    #expression .summation .sigma {
+      font-style: normal;
+      clear: left; }
+  #expression .super {
+    font-size: 0.5em;
+    vertical-align: 125%;
+    margin-left: -0.3em; }
+  #expression .sub {
+    font-size: 0.5em;
+    vertical-align: -25%;
+    margin-left: 0.25em; }

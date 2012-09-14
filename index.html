@@ -6,6 +6,7 @@
 
 	<script type="text/javascript" src="jquery-1.8.0.min.js"></script>
 	<script type="text/javascript" src="jquery-ui-1.8.23.custom.min.js"></script>
+	<script type="text/javascript" src="index.js"></script>
 
 </head>
 <body>
@@ -33,5 +34,20 @@
 			<td>10</td>
 		</tr>
 	</table>
+
+	<div id="expression">
+		<span class="open parenthesis">(</span>
+		
+		<span class="summation">
+			<span class="upper bound">5</span>
+			<span class="sigma">&Sigma;</span>
+			<span class="lower bound">i = 1</span>
+		</span>
+		<span id="component_difference">| x<span class="sub">i</span> - y<span class="sub">i</span> |</span>
+		<span class="super">q</span>
+
+		<span class="close parenthesis">)</span>
+		<span class="super">1/q</span>
+	</div>
 </body>
 </html>

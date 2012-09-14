@@ -1,5 +1,5 @@
 body {
-	font-family: Futura, sans-serif;
+	font-family: Futura, Helvetica, sans-serif;
 	text-align: center;
 }
 
@@ -57,7 +57,7 @@ h1 {
 	}
 }
 
-#expression {
+.expression {
 	font-size: 4em;
 	font-family: Georgia, Times, serif;
 	font-style: italic;
@@ -115,5 +115,16 @@ h1 {
 		font-size: 0.5em;
 		vertical-align: -25%;
 		margin-left: 0.25em;
+	}
+
+	.equals {
+		margin: 0 0.5em 0 0.25em;
+	}
+
+	.equation_value {
+		font-family: Helvetica, sans-serif;
+		font-style: normal;
+		font-weight: bold;
+		letter-spacing: 0.1em;
 	}
 }

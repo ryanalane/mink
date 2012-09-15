@@ -31,6 +31,39 @@ h1 {
     #vector_table tr.differences td {
       padding: 0 3em; }
 
+.slider {
+  margin: 2em 0;
+  width: 100%;
+  position: relative; }
+  .slider div {
+    color: inherit;
+    background: #000; }
+  .slider .bar {
+    margin: 0 auto;
+    height: 0.1em;
+    width: 75em; }
+  .slider .handle {
+    color: inherit;
+    background: #fff;
+    border: 0.15em black solid;
+    position: absolute;
+    height: 2em;
+    width: 2em;
+    top: 50%;
+    left: 50%;
+    margin-top: -1em;
+    border-radius: 50%; }
+    .slider .handle .inner_circle {
+      color: inherit;
+      background: #000;
+      position: absolute;
+      top: 50%;
+      left: 25%;
+      height: 1em;
+      width: 1em;
+      margin-top: -0.5em;
+      border-radius: 50%; }
+
 .expression {
   font-size: 4em;
   font-family: Georgia, Times, serif;
